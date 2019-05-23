@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+html {
+  font-family: 'Lato',sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+}
+
+table {
+  flex:1;
+  border-collapse: collapse;
+}
+
+.caption {
+  font-weight: 700;
+  font-size: 30px;
+  margin: 50px 0;
+}
+
+th,
+td {
+  border: 1px solid #cecfd5;
+  padding: 10px 15px;
+}
+
+em {
+  font-weight: 700;
+  margin-right: 5px;
+  letter-spacing: 0.75px;
+}

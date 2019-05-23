@@ -1,0 +1,32 @@
+.container {
+  width: 80%;
+  margin: 100px auto;
+}
+
+.pie {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  height: 150px;
+  width: 150px;
+  background: #888;
+  border: 20px solid rgba(255, 0, 88, 0.3);
+  transform-origin: 100% 50%;
+  /* margin: 0 auto; */
+}
+
+.spinner {
+  border-radius: 100%;
+  border-right: none;
+  z-index: 200;
+}
+
+.spinner-animate {
+  animation: rotate 30s linear;
+}
+
+
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}

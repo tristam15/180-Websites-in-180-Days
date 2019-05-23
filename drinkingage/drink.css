@@ -1,0 +1,52 @@
+.hero {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: 'Bangers',cursive;
+  font-size: 48px;
+  color: #ff6666;
+  line-height: 1.6;
+  letter-spacing: 2px;
+}
+.hero span {
+  color: #6666ff;
+  text-decoration: underline;
+}
+
+#age {
+  width: 100px;
+  height: 50px;
+}
+
+#btn {
+  width: 200px;
+  height: 40px;
+  padding-top: 10px;
+  padding-bottom: 35px;
+  font-family: 'Lato','Helvetica',Arial,sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin: 15px 30px;
+  cursor: pointer;
+  font-size: 700;
+  border: 3px solid #333;
+  background: #0e83cd;
+  color: white;
+}
+
+#btn:hover {
+  color: darkblue;
+}
+
+#result {
+  font-size: 40px;
+  font-family: 'Lato','Helvetica',Arial,sans-serif;
+  padding: 30px;
+}
+
+#result span {
+  text-decoration: none;
+}

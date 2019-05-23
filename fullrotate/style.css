@@ -1,0 +1,16 @@
+.main {
+  width: 80%;
+  margin: 0 auto;
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+}
+
+.rotate {
+  font-size: 75px;
+  margin: 250px 0;
+}
+
+.rotate:hover {
+  transform: rotate(360deg);
+  transition: 1s ease-in;
+}

@@ -1,0 +1,18 @@
+.container {
+  width: 60%;
+  margin: 160px auto;
+  font-family: 'Lato',sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 120px;
+
+}
+
+h1:hover {
+  font-size: 30px;
+  cursor: pointer;
+  transition: 2s ease-in;
+
+}

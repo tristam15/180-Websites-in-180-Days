@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+html {
+  font-size: 16px;
+  font-family: 'Lato',sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  margin: 150px 0;
+  font-size: 48px;
+}
+
+h1:hover {
+  color: #1a8cff;
+  font-size: 72px;
+  transition: 0.5s ease-in-out;
+}

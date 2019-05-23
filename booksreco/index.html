@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Get A Book Recommendation | PRK</title>
+
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container">
+
+
+      <h1 class="question">Do you have a problem with any of these?</h1>
+      <p>Psst! You can choose one of the following for a book recommendation.</p>
+
+      <div class="choices">
+        <button class="btn" id="prcb" type="button" name="button" onclick="prc()">Procrastination</button>
+        <button class="btn" id="invb" type="button" name="button" onclick="inv()">Investing</button>
+        <button class="btn" id="relb" type="button" name="button" onclick="rel()">Relationships</button>
+      </div>
+
+      <div class="results">
+
+
+
+      <div class="result" id="prc">
+        <h3>These books help with Procrastination</h3>
+        <ul>
+          <li><em>Mindset</em> by Carol Dweck</li>
+          <li><em>Grit</em> by Angela Duckworth</li>
+          <li><em>Atomic Habits</em> by James Clear</li>
+        </ul>
+      </div>
+
+      <div class="result" id="inv">
+        <h3>These books help with Investing</h3>
+        <ul>
+          <li><em>Principles</em> by Ray Dalio</li>
+          <li><em>Reminiscences of a Stock Operator</em> by Jesse Livermore</li>
+          <li><em>Freakonomics</em> by Steven D Levitt & Stephen J Dubner</li>
+        </ul>
+      </div>
+
+      <div class="result" id="rel">
+        <h3>These books help with Relationships</h3>
+        <ul>
+          <li><em>The Five Love Languages</em> by Gary Chapman</li>
+          <li><em>Body Language</em> by Julius Fast</li>
+          <li><em>The Game</em> by Neil Strauss</li>
+        </ul>
+      </div>
+
+      </div>
+
+
+
+
+
+    </div>
+    <script src="books.js" charset="utf-8"></script>
+  </body>
+</html>

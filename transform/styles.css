@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+html {
+  font-family: 'Lato',sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+.capitalize {
+  margin: 100px;
+}
+
+.capitalize:hover {
+  text-transform: capitalize;
+  transition: 0.5s ease-in-out;
+  color: #1a8cff;
+}
+
+.uppercase {
+  margin: 100px;
+}
+.uppercase:hover {
+  text-transform: uppercase;
+  transition: 0.5s ease-in-out;
+  color: #ff3333;
+}

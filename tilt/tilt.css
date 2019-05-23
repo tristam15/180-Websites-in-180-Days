@@ -1,0 +1,9 @@
+.main {
+  text-align: center;
+  margin: 250px;
+  font-size: 50px;
+}
+.main h1:hover {
+  transform: rotate(-90deg);
+  transition: 1.45s ease-in;
+}

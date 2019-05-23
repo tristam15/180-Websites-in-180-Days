@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700');
+
+html {
+  font-family: 'Lato',sans-serif;
+}
+.container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.round {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #004d99;
+  border-radius: 50%;
+  font-size: 48px;
+  color: #fff;
+  background-color: #1a8cff;
+  box-shadow: 1px 10px #004d99;
+  margin: 0 auto;
+  text-align: center;
+  outline: 0;
+  margin: 50px 0;
+  cursor: pointer;
+}
+
+.round:hover {
+  background-color: #006633;
+  box-shadow: 1px 10px #0f3d0f;
+  border: 1px solid #0f3d0f;
+}
+
+.disable {
+  background-color: #a0a0a0;
+  box-shadow: 1px 10px #a0a0a0;
+  border: 1px solid #a0a0a0;
+}
+
+#do {
+  font-size: 36px;
+}
+
+#do span {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.progress-bar {
+  display: none;
+  position: absolute;
+  height: 150px;
+  width: 400px;
+  border-radius: 10px;
+  top: 90px;
+  left: 450px;
+  background-color: rgba(255, 0, 0, 0.8);
+  text-align: center;
+}
+
+.progress {
+  margin: 45px;
+  font-size: 48px;
+  color: #fff;
+
+}

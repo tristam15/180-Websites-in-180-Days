@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Are you coming for Dinner?</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script src="https://wzrd.in/standalone/formdata-polyfill"></script>
+    <script src="https://wzrd.in/standalone/promise-polyfill@latest"></script>
+    <script src="https://wzrd.in/standalone/whatwg-fetch@latest"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="response">
+        <form name="submit-to-google-sheet">
+          <h1 id="question">Are you coming for dinner?</h1>
+        <input id="name" name="name" type="text" placeholder="Your Name" required>
+        <div class="form-container">
+          <input type="radio" name="response" id="r1" value="1">
+          <label for="r1"><span class="radio">Yes!</span></label>
+        </div>
+        <div class="form-container">
+          <input type="radio" name="response" id="r2" value="0">
+          <label for="r2"><span class="radio">Nope</span></label>
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+        </form>
+        <p class="js-success-message is-hidden"><span id="success">Success!</span> <br>Thanks for letting us know, you help us not waste food.</p>
+        <p class="js-error-message is-hidden">Error!</p>
+        <div class="loading js-loading is-hidden">
+          <div class="loading-spinner">
+            <svg><circle cx="25" cy="25" r="20" fill="none" stroke-width="2" stroke-miterlimit="10"/></svg>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+    <a href="https://docs.google.com/spreadsheets/d/1OT27QzJwsjk_ulgNqhRcp-XvDAw6J5dvT_l7xXZf8I0/edit?usp=sharing">View the results</a>
+    <script src="food.js" charset="utf-8"></script>
+  </body>
+</html>

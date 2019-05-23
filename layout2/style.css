@@ -1,0 +1,274 @@
+/*------------  General ----------- */
+
+.col {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.clearfix::before, .clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix {
+  clear: both;
+}
+
+* {
+  box-sizing: border-box;
+}
+/*------------  Header ----------- */
+
+.nav-bar {
+  height: 50px;
+  background-color: #000;
+}
+
+.logo {
+  float: left;
+  font-family: cursive;
+  color: #E5474B;
+  font-size: 25px;
+  font-weight: 700;
+  padding-top: 10px;
+
+}
+
+.nav-bar nav {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-bar nav a li{
+  float: right;
+  text-transform: uppercase;
+  margin: 0 20px;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding-top: 20px;
+}
+
+/*------------  Hero ----------- */
+
+.hero {
+  height: 400px;
+  background: url('images/banner.jpg');
+}
+
+.hero__text {
+  font-size: 28px;
+  color: #fff;
+  text-transform: uppercase;
+  position: absolute;
+  left: 130px;
+  top: 250px;
+  line-height: 1.25;
+  word-spacing: 2.8px;
+  letter-spacing: 1.5px;
+  font-family: 'Lato',sans-serif;
+}
+
+.hero__text span {
+  font-weight: 900;
+}
+
+.hero-cta {
+  height: 35px;
+  width: 170px;
+  color: #fff;
+  background: transparent;
+  border: 2px solid #fff;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: 'Lato',sans-serif;
+}
+
+/*------------  Filler ----------- */
+
+.filler {
+  height: 300px;
+  margin-bottom: 50px;
+}
+
+.filler__text {
+  font-family: 'Lato',sans-serif;
+  padding: 80px 0;
+  font-size: 14px;
+  line-height: 1.5;
+  letter-spacing: 0.75px;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.filler__text h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #E5474B;
+  margin-bottom: 20px;
+}
+
+.filler-btn {
+  height: 35px;
+  width: 125px;
+  color: #E5474B;
+  background: transparent;
+  border: 2px solid #E5474B;
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+/*------------  Features ----------- */
+
+.features {
+  height: 500px;
+}
+
+.feature {
+  height: 100%;
+  width: 50%;
+  /* padding: 50px; */
+  display: inline-block;
+}
+
+.feature h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: #E5474B;
+  font-family: 'Lato',sans-serif;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.feature p {
+  margin-top: 20px;
+  font-family: 'Lato',sans-serif;
+}
+
+.box1  {
+  background-color: #F3F3F3;
+}
+
+.box2  {
+  background-color: #F7F7F7;
+}
+
+.box__content {
+  padding: 70px 100px 100px 100px;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+/*------------  More - Features ----------- */
+
+.more__features {
+  height: 400px;
+}
+
+.wrapper {
+  /* padding: 25px; */
+}
+
+.feature-box {
+  width: 20em;
+  display: inline-block;
+  padding: 30px 0 30px 10px;
+}
+
+.feature-box i {
+  font-size: 36px;
+  margin: 20px;
+}
+
+.feature-box h3 {
+  font-size: 24px;
+  text-transform: uppercase;
+  color: #E5474B;
+  font-family: 'Lato',sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.feature-btn {
+  height: 35px;
+  width: 125px;
+  color: #E5474B;
+  background: transparent;
+  border: 2px solid #E5474B;
+  margin-top: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+
+/*------------  Footer ----------- */
+
+footer {
+  /* height: 600px; */
+  background-color: #E5474B;
+}
+
+.form {
+  padding: 80px 0 50px 0;
+}
+
+.form h3 {
+  font-size: 30px;
+  font-family: 'Lato',sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  margin-bottom:30px;
+}
+.form span {
+  font-size: 16px;
+  font-family: 'Lato',sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #fff;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 50%;
+}
+
+.form .text-box {
+  height: 30px;
+  width: 49%;
+  background: transparent;
+  font-family: 'Lato',sans-serif;
+  display: inline-block;
+  margin-bottom: 20px;
+  color:#fff;
+  outline: none;
+  font-size: 16px;
+}
+
+.form .text-box-big {
+  height: 300px;
+  width: 100%;
+  background: transparent;
+  font-family: 'Lato',sans-serif;
+  display: inline-block;
+  outline: none;
+  color:#fff;
+  font-size: 16px;
+}
+
+.form-btn {
+  height: 35px;
+  width: 120px;
+  font-family: 'Lato',sans-serif;
+  text-transform: uppercase;
+  margin: 20px 0 0 0;
+  background: transparent;
+  color: #fff;
+  outline: none;
+}
+
+footer small {
+  font-size: 16px;
+  font-family: 'Lato',sans-serif;
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  margin: 50px 0 20px 0;
+}
